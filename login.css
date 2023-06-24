@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E9E9E9;
+  }
+  
+  header {
+    background-color: #af1c12;
+    padding: 20px;
+    color: #FFFFFF;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #FFF;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #af1c12;
+    padding: 5px 10px;
+    border: 1px solid #af1c12;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #af1c12;
+    color: #FFF;
+  }
+  
+  main {
+    margin: 20px;
+    background-color: #FFF;
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #af1c12;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  /* Estilos de la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #af1c12;
+    color: #FFF;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #F9F9F9;
+  }
+  
+  /* Gama de colores River Plate */
+  h1 {
+    color: #E9E9E9;
+  }
+  
+  h2, h3, h4, h5, h6 {
+    color: #af1c12;
+  }
+  
+  a {
+    color: #af1c12;
+  }
+  
+  button {
+    background-color: #af1c12;
+    color: #FFF;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FFF;
+    color: #af1c12;
+  }
+  
+  /* Estilos adicionales para el formulario de inicio de sesión */
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    margin-bottom: 1em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label {
+    margin-bottom: 0.5em;
+  }
+  
+  input {
+    margin-bottom: 1em;
+  }
+  

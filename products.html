@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ingresar y Modificar Productos</title>
+  <link rel="stylesheet" type="text/css" href="estiloV.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Distribuidora de Alimentos</h1>
+      </header>
+      
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="products.html">Ingresar y Modificar Productos</a></li>
+          <li><a href="ventas.html">Cargar Ventas</a></li>
+          <li><a href="calcular_porcentaje.html">Calcular Porcentaje de Ventas</a></li>
+        </ul>
+      </nav>
+      
+      <main>
+        <h2>Ingresar y Modificar Productos</h2>
+      
+        <form id="product-form">
+          <label for="product-code">Código del Producto:</label>
+          <input type="text" id="product-code" required>
+      
+          <label for="product-name">Nombre del Producto:</label>
+          <input type="text" id="product-name" required>
+      
+          <label for="product-price">Precio del Producto:</label>
+          <input type="number" id="product-price" step="0.01" required>
+      
+          <label for="product-quantity">Cantidad del Producto:</label>
+          <input type="number" id="product-quantity" required>
+      
+          <button type="submit">Guardar Producto</button>
+        </form>
+      
+        <table id="product-table">
+          <thead>
+            <tr>
+              <th>Fecha de Creación</th>
+              <th>Código</th>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Acciones</th>
+            </tr>
+          </thead>
+          <tbody id="product-list"></tbody>
+        </table>
+      </main>
+      
+      <footer>
+        <p>&copy; 2023 Distribuidora de Alimentos. Todos los derechos reservados.</p>
+      </footer>
+      <script src="product.js"></script>
+</html>
+

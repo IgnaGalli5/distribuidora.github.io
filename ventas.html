@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Cargar Ventas</title>
+  <link rel="stylesheet" href="estiloV.css">
+</head>
+<body>
+    <header>
+        <h1>Distribuidora de Alimentos</h1>
+    </header>
+      
+    <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="products.html">Ingresar y Modificar Productos</a></li>
+          <li><a href="ventas.html">Cargar Ventas</a></li>
+          <li><a href="calcular_porcentaje.html">Calcular Porcentaje de Ventas</a></li>
+        </ul>
+    </nav>
+
+    <h1>Cargar Ventas</h1>
+
+    <form id="sales-form">
+        <label for="product-code">Código del Producto:</label>
+        <input type="text" id="product-code" required>
+
+        <label for="quantity-sold">Cantidad Vendida:</label>
+        <input type="number" id="quantity-sold" required>
+
+        <button type="submit">Cargar Venta</button>
+    </form>
+
+    <table id="sales-table">
+        <thead>
+            <tr>
+                <th>Código del Producto</th>
+                <th>Nombre del Producto</th>
+                <th>Cantidad Vendida</th>
+                <th>Precio Total de la Venta</th>
+                <th>Fecha de la Venta</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se agregarán las filas de la tabla dinámicamente -->
+        </tbody>
+    </table>
+
+    <script src="sales.js"></script>
+</body>
+</html>
